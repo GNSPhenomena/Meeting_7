@@ -22,7 +22,8 @@ long findDistance()
 	return distance;
 }
 
-void loop() {
+void loop()
+{
   //ultrasonic
   long dis = findDistance();
   Serial.print("Distance: ");
